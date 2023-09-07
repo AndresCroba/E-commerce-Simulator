@@ -1,0 +1,115 @@
+[
+    {
+        "nombre": "Colores x6",
+        "precio":150,
+        "id" :1,
+        "categoria":"colores",
+        "img":"img/colores.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Colores Faber Castel x12",
+        "precio":350,
+        "id" :2,
+        "categoria":"colores",
+        "img":"img/Colores-faber-x12.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Lapicera",
+        "precio":250,
+        "id" :3,
+        "categoria":"lapiceras",
+        "img":"img/lapiceras.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Lapicera Bic",
+        "precio":320,
+        "id" :4,
+        "categoria":"lapiceras",
+        "img":"img/lapicera-bic.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Pluma",
+        "precio":1200,
+        "id" :5,
+        "categoria":"lapiceras",
+        "img":"img/Pluma.jpg" ,
+        "cantidad":1
+    },
+    {
+        "nombre":"Pincel N4",
+        "precio": 50,
+        "id" :6,
+        "categoria":"pinceles",
+        "img":"img/pinceles.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Set de pinceles redondos",
+        "precio":1000,
+        "id" :7,
+        "categoria":"pinceles",
+        "img":"img/set-pinceles-redondos.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Pincel chato n6",
+        "precio":300,
+        "id" :8,
+        "categoria":"pinceles",
+        "img":"img/pincel-chato-n6.jpeg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Cuaderno",
+        "precio":500,
+        "id" :9,
+        "categoria":"cuadernos",
+        "img":"img/cuadernos.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Block Canson",
+        "precio":1500,
+        "id" :10,
+        "categoria":"cuadernos",
+        "img":"img/block-canson-acuarelas.webp",
+        "cantidad":1
+    },
+    {
+        "nombre":"Cuaderno Ecologico",
+        "precio":1200,
+        "id" :11,
+        "categoria":"cuadernos",
+        "img":"img/cuaderno-artesanal-ecologico.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Pintura Acuarela x12",
+        "precio":400,
+        "id" :12,
+        "categoria":"pinturas",
+        "img":"img/acurelas.jpeg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Surtido de Pinturas al Oleo",
+        "precio":800,
+        "id" :13,
+        "categoria":"pinturas",
+        "img":"img/surtido-oleo.jpg",
+        "cantidad":1
+    },
+    {
+        "nombre":"Pinturas Acrilicas",
+        "precio":600,
+        "id" :14,
+        "categoria":"pinturas",
+        "img":"img/Pintura-acrilica.jpg",
+        "cantidad":1
+    }
+
+]

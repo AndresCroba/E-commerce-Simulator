@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.35/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Simulador</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Bienvenido a la tienda Online
+                de ARTics</h1>
+            <ul>
+                <li id="todos" class="categorias"><a href="#">Productos</a>
+                    <ul>
+                        <li class="CategoriaIndividual"><a href="#" id="todos">Todos</a></li>
+                        <li class="CategoriaIndividual"><a href="#" id="pinceles">Pinceles</a></li>
+                        <li class="CategoriaIndividual"><a href="#" id="cuadernos">Cuadernos</a></li>
+                        <li class="CategoriaIndividual"><a href="#" id="pinturas">Pinturas</a></li>
+                        <li class="CategoriaIndividual"><a href="#" id="lapiceras">Lapiceras</a></li>
+                        <li class="CategoriaIndividual"><a href="#" id="colores">Colores</a></li>
+                    </ul>
+                </li>
+
+                <li class="acerca"><a href="#">Acerca de</a></li>
+                <li class="contacto"><a href="#">Contacto</a></li>
+            </ul>
+        </header>
+    <div class="productos productosContenedor" id="productosContenedor">
+        
+    </div>
+        <div class="carrito">
+            <h3>ticket de Compra</h3>
+            <div class="contenedorBotones">
+                <p class="precio-total" id="precio-total" ></p> 
+                <button id="deleteCompra" class="cancelarCompra">Cancelar Compra</button>
+                <button class="botonComprar" id="botonComprar">Comprar</button>
+            </div>
+            <div class="ticket" id = "carritoContenedor">
+        </div>
+    <script src="js/dom.js"></script>
+    <script src="js/Carrito.js"></script>
+</body>
+</html>

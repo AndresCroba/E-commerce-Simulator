@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.contenedor{
+    position: relative;
+    width: 1366px;
+    height: 1800px;
+    background: #000000;
+}
+
+h1{
+    position: absolute;
+    margin: 150px 180px 150px 250px;
+
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 450px;
+    height: 55px;
+    left: 0px;
+    top: px;
+}
+li{
+    width: 150px;
+    height: 55px;
+    color: white;
+    background: #181818;
+    align-items:center ;
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header li:hover{
+    background-color:#434343 ;
+}
+header li ul{
+    display: none;
+}
+header li:hover>ul{
+    display: block;
+}
+.productos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1366px;
+    height: 1000px;
+    left: 0px;
+    top: 355px;
+    background: #D5D5D5;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 145.62px;
+    height: 145.16px; 
+    padding: 10px;
+    border-radius: 19px;
+}
+.caja{
+    width: 194px;
+    height: 280px;
+    background: white;
+    border-radius: 9px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin: 20px 10px 20px 10px;
+    display:flexbox;
+    flex-wrap: nowrap;
+}
+h2{
+    position: center;
+    font-size: 13px;
+}
+.btn{
+    margin: 25px;
+    padding: 5px;
+    text-align: center;
+    width: 135px;
+    height: 40px;
+    font-size: 13px;
+    background: white;
+    border-radius: 9px;
+    border-color: #000000;
+}
+.btn:hover{
+    color: #FFFFFF;
+    background: #C31414;
+}
+.ticket{
+    width: 100%;
+    height: auto;
+    /* background: #ffffff; */
+    /* border-radius: 12px; */
+    max-height: 270px;
+    overflow: auto;
+}
+.ticket-carrito{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: right;
+    margin: 10px;
+    display: inline-block;
+}
+h3{
+    padding:5px;
+    display: flex;
+    font-size: 16px;
+    color:#000000;
+    justify-content: center;
+}
+.show{
+    display: none;
+}
+h4{
+    display:inline-flex;
+    color:black;
+    margin: 0px 50px 0px 50px;
+}
+.comprarButton{
+    display: block;
+    text-align: center;
+}
+.show:hover{
+    display: block;
+}
+#form {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 383px;
+    top: 1500px;
+    margin: 10px;
+
+  }
+  
+  input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #726659;
+    
+    border: solid 2px #b3aca7;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover {
+    background: #b3aca7;
+    color: black;
+  }
+  
+  textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #b3aca7;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  textarea:hover {
+    background: #b3aca7;
+    color:black;
+  }
+  
+  #submit {
+    width: 502px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #b3aca7;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color:black;
+  }
+.carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 289px;
+    top: 1400px;
+    width: 810px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cancelarCompra{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background: #C31414;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.precio-total{
+    font-size: 20px;
+}
+.botonComprar{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background: #228B22;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
